@@ -11,8 +11,8 @@ body, html {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 100vmin; /* Use the smaller dimension to make a square grid */
-    height: 100vmin; /* Use the smaller dimension to make a square grid */
+    width: 100vmin;
+    height: 100vmin;
     border: .1px solid black;
 }
 
@@ -20,6 +20,5 @@ body, html {
     flex: 0 0 calc(100% / 16);
     margin: 0;
     box-sizing: border-box;
-    border: .1px solid black;
     aspect-ratio: 1 / 1;
 }
